@@ -1,0 +1,16 @@
+#n = float(input('Digite um valor:'))
+#print (n)
+
+n = input('Digite algo: ')
+
+print('É letra?', n.isalpha())
+print('É dígito?', n.isdigit())
+print('É número?', n.isnumeric())
+print('Somente maíuscula?',n.isupper())
+print('Somente minúsculas?', n.islower())
+print('É decimal?', n.isdecimal())
+print('É alfanumérico?', n.isalnum())
+print('Tabela ASCII?', n.isascii())
+print('Imprimíveis?', n.isprintable())
+print('Somento espaço em branco?', n.isspace())
+print('Formato de título?', n.istitle())
